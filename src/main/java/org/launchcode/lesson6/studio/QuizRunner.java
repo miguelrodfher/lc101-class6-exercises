@@ -37,6 +37,6 @@ public class QuizRunner {
         }
 
         char grade = quiz.getGrade();
-        System.out.println("Quiz Grade: " + grade + "; " + quiz.getMessage(grade));
+        System.out.println("\nQuiz Grade: " + grade + ", " + String.format("%.2f", quiz.getQuizScore()) + "/ 100.00; " + quiz.getMessage(grade));
     }
 }

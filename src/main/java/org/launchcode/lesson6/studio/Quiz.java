@@ -9,6 +9,8 @@ public class Quiz {
 
     private HashMap<Question, String> questionAnswerHashMap = new HashMap<>();
 
+    private double quizScore;
+
     public void addQuestionAndAnswer(Question question, String givenAnswer) {
         questionAnswerHashMap.put(question, givenAnswer);
     }
@@ -33,6 +35,14 @@ public class Quiz {
         }
     }
 
+    public double getQuizScore() {
+        return quizScore;
+    }
+
+    public void setQuizScore(double quizScore) {
+        this.quizScore = quizScore;
+    }
+
     public char getGrade() {
         int total = questionAnswerHashMap.size();
         double score = 0;
@@ -42,6 +52,8 @@ public class Quiz {
             }
         }
         double grade = score/total * 100;
+        setQuizScore(grade);
+
         if (grade >= 90) {
             return 'A';
         } else if (grade >= 80) {

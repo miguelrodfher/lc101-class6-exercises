@@ -54,6 +54,11 @@
     "answer": "T"
   },
   {
+    "questionType": "TRUE_OR_FALSE",
+    "question": "A class derived from an abstract class must implement all of the abstract methods it inherits.",
+    "answer": "T"
+  },
+  {
     "questionType": "CHECKBOX",
     "question": "What is the main method signature in Java?",
     "checkAllThatApply": {
@@ -71,6 +76,28 @@
       "String[] someWords = [\"hello\", \"world\"];": "false",
       "String[] someWords = {\"hello\", \"world\"};": "true",
       "String someWords = [\"hello\", \"World\", \"Launch Code ROCKS!\"]": "false"
+    }
+  },
+  {
+    "questionType": "MULTI_CHOICE",
+    "question": "When might a programmer want to make a class abstract?",
+    "multipleChoices": {
+      "a": "When a class has no real data or behavior.",
+      "b": "When expressionism just won’t cut it",
+      "c": "When that class needs to be instantiated in more than one package",
+      "d": "When shared behavior is desired among a group of non-abstract classes"
+    },
+    "answer": "d"
+  },
+  {
+    "questionType": "CHECKBOX",
+    "question": "Which is a good example of Polymorphism?",
+    "checkAllThatApply": {
+      "Animal cat = new Cat();": "true",
+      "Cat cat = new Cat();": "false",
+      "Question question = new CheckboxQuestion(\"Which is a good example of Polymorphism?\"": "true",
+      "Quiz quiz = new Quiz();": "false",
+      "Animal bigCat = new BigCat();": "true"
     }
   },
   {
@@ -105,5 +132,10 @@
       "d": "child class"
     },
     "answer": "c"
+  },
+  {
+    "questionType": "TRUE_OR_FALSE",
+    "question": "When making class diagrams, the main idea is to get the design rules just right so that you won’t need to update your classes in the future (T/F).",
+    "answer": "T"
   }
 ]
