@@ -1,0 +1,109 @@
+[
+  {
+    "questionType": "MULTI_CHOICE",
+    "question": "What is the java code for printing a message?",
+    "multipleChoices": {
+      "a": "printf",
+      "b": "println",
+      "c": "System.out.println",
+      "d": "all of the above"
+    },
+    "answer": "c"
+  },
+  {
+    "questionType": "TRUE_OR_FALSE",
+    "question": "Constants in Java are variables created using both static and final modifiers. (T/F)",
+    "answer": "T"
+  },
+  {
+    "questionType": "MULTI_CHOICE",
+    "question": "Which of the following is NOT a number dataType in Java?",
+    "multipleChoices": {
+      "a": "number",
+      "b": "int",
+      "c": "float",
+      "d": "double"
+    },
+    "answer": "a"
+  },
+  {
+    "questionType": "MULTI_CHOICE",
+    "question": "Name the Java method responsible for checking string equality:",
+    "multipleChoices": {
+      "a": ".sameAs()",
+      "b": ".equals()",
+      "c": ".isEqualTo()",
+      "d": "==="
+    },
+    "answer": "b"
+  },
+  {
+    "questionType": "MULTI_CHOICE",
+    "question": "How do you get intellij to recognize packages and classes, instead of directories and files?",
+    "multipleChoices": {
+      "a": "Mark parent directory as 'sources root', blue directory",
+      "b": "Mark parent directory as 'test sources root', green directory",
+      "c": "Mark parent directory as 'sources root', green directory",
+      "d": "None of the above"
+    },
+    "answer": "a"
+  },
+  {
+    "questionType": "TRUE_OR_FALSE",
+    "question": "An import statement is required to use a Java class defined in another package (T/F):",
+    "answer": "T"
+  },
+  {
+    "questionType": "CHECKBOX",
+    "question": "What is the main method signature in Java?",
+    "checkAllThatApply": {
+      "public static void main(String[] args)": "true",
+      "public static void main(String args[])": "true",
+      "public static main()": "false",
+      "public static main string()": "false"
+    }
+  },
+  {
+    "questionType": "CHECKBOX",
+    "question": "Which of the following is the correct way to define a Java array?",
+    "checkAllThatApply": {
+      "String[] someWords = {'hello', 'world', '123', 'Launch Code ROCKS!'};": "false",
+      "String[] someWords = [\"hello\", \"world\"];": "false",
+      "String[] someWords = {\"hello\", \"world\"};": "true",
+      "String someWords = [\"hello\", \"World\", \"Launch Code ROCKS!\"]": "false"
+    }
+  },
+  {
+    "questionType": "MULTI_CHOICE",
+    "question": "When does fall through occur in Java?",
+    "multipleChoices": {
+      "a": "Omitting an else clause from a conditional.",
+      "b": "Omitting an else clause from switch statement.",
+      "c": "Omitting a default case from a switch statement.",
+      "d": "Omitting a break line from a switch statement."
+    },
+    "answer": "d"
+  },
+  {
+    "questionType": "MULTI_CHOICE",
+    "question": "When does a while loop result in an infinite loop?",
+    "multipleChoices": {
+      "a": "When the while condition always evaluates to true",
+      "b": "When the while condition always results in false",
+      "c": "it's not possible to have an infinite loop in Java",
+      "d": "none of the above"
+    },
+    "answer": "a"
+  },
+  {
+    "questionType": "MULTI_CHOICE",
+    "question": "Which of the following is NOT a term for one class that extends another:",
+    "multipleChoices": {
+      "a": "subclass",
+      "b": "derived class",
+      "c": "extension class",
+      "d": "child class"
+    },
+    "answer": "c"
+  }
+]
