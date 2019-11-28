@@ -55,7 +55,7 @@
   },
   {
     "questionType": "TRUE_OR_FALSE",
-    "question": "A class derived from an abstract class must implement all of the abstract methods it inherits.",
+    "question": "A class derived from an abstract class must implement all of the abstract methods it inherits (T/F):",
     "answer": "T"
   },
   {
