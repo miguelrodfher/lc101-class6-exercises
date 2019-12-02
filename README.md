@@ -18,7 +18,12 @@ All JUnit tests are contained in `src/main/test`
 ## Design
 ![original Design](https://user-images.githubusercontent.com/3410399/69594239-a05adb80-0ff3-11ea-9b43-12f0909f3bb0.png)
 
+## Class Diagram
+![Class Diagram](https://raw.githubusercontent.com/shivanykshenoy/lc101-class6-exercises/master/QuizClassDiagram.png)
+
 ## Example Run
 ![Sample Run](https://j.gifs.com/K17QQn.gif)
+
+
 
 
