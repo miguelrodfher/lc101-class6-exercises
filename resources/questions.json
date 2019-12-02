@@ -137,5 +137,32 @@
     "questionType": "TRUE_OR_FALSE",
     "question": "When making class diagrams, the main idea is to get the design rules just right so that you won’t need to update your classes in the future (T/F).",
     "answer": "T"
+  },
+  {
+    "questionType": "MULTI_CHOICE",
+    "question": "A Java interface may contain:",
+    "multipleChoices": {
+      "a": "Constants (that is, static final fields)",
+      "b": "Method signatures",
+      "c": "Static methods",
+      "d": "Default methods",
+      "e": "All of the above"
+    },
+    "answer": "e"
+  },
+  {
+    "questionType": "TRUE_OR_FALSE",
+    "question": "An interface can extend another interface. (T/F)",
+    "answer": "T"
+  },
+  {
+    "questionType": "CHECKBOX",
+    "question": "Answer all statements that are TRUE about the differences between interfaces and abstract.",
+    "checkAllThatApply": {
+      "You extend an abstract class, but implement an interface": "true",
+      "You can implement many interfaces and many classes.": "false",
+      "Interfaces cannot contain non-constant fields, but abstract classes can.": "true",
+      "Methods that use instance properties can be in both interfaces and abstract classes.": "false"
+    }
   }
 ]
